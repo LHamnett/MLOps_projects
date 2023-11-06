@@ -11,21 +11,21 @@ and that the end-to-end process works as expected.
 
 ## Files and data description
 Folder structure:
-├── churn_library.py
-├── churn_notebook.ipynb
-├── churn_script_logging_and_tests.py
-├── conftest.py
-├── data
-├── Guide.ipynb
-├── images
-├── logs
-├── models
-├── __pycache__
-├── pytest.ini
-├── README.md
-├── requirements_py3.6.txt
-├── requirements_py3.8.txt
-└── testing
+├── churn_library.py\
+├── churn_notebook.ipynb\
+├── churn_script_logging_and_tests.py\
+├── conftest.py\
+├── data\
+├── Guide.ipynb\
+├── images\
+├── logs\
+├── models\
+├── __pycache__\
+├── pytest.ini\
+├── README.md\
+├── requirements_py3.6.txt\
+├── requirements_py3.8.txt\
+└── testing\
 
 churn_library.py: This is the main library containing all the functions used in the project such as data importing, EDA, feature engineering, and model training.
 
