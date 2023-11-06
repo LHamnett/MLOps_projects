@@ -1,0 +1,30 @@
+root - INFO - INFO: file path exists and df created
+root - INFO - INFO: df has shape (10127, 23)
+root - INFO - INFO: churn histogram saved
+root - INFO - INFO: customer age histogram saved
+root - INFO - INFO: percentage marital status barchart saved
+root - INFO - INFO: total trans histogram saved
+root - INFO - INFO: feature heatmap saved
+root - INFO - SUCCESS: all EDA steps completed
+root - INFO - SUCCESS: categorical columns encoded,returning new df with shape (10127, 28)
+root - INFO - SUCCESS: train_test_splits created with shapes: 
+    X_train: (7088, 19) 
+    X_test: (3039, 19) 
+    y_train: (7088,) 
+    y_test: (3039,) 
+
+root - INFO - INFO: starting training: random forest classifier
+root - INFO - SUCCESS: finished training: random forest classifier
+root - INFO - SUCCESS: saved random forest classifer model at ./models/rfc_model.pkl
+root - INFO - INFO: starting training: logistic regression
+root - INFO - SUCCESS: finished training: logistic regression
+root - INFO - SUCCESS: saved logistic regression model at ./models/logistic_model.pkl
+root - INFO - INFO: getting predictions: random forest classifier
+root - INFO - SUCCESS: finished getting predictions: random forest classifier
+root - INFO - INFO: getting predictions: logistic regression
+root - INFO - SUCCESS: finished getting predictions: logistic regression
+root - INFO - INFO: generating classification reports
+root - INFO - SUCCESS: saved random forest classification report
+root - INFO - SUCCESS: saved logistic regression report
+root - INFO - SUCCESS: finished saving ROC curves
+root - INFO - SUCCESS: saved feature importance plot

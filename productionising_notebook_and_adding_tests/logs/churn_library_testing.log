@@ -1,0 +1,51 @@
+INFO:root:INFO: file path exists and df created
+INFO:root:Testing import_data: SUCCESS
+INFO:root:Testing import_data: SUCCESS
+INFO:root:INFO: file path exists and df created
+INFO:root:INFO: df has shape (10127, 23)
+INFO:root:INFO: churn histogram saved
+INFO:root:INFO: customer age histogram saved
+INFO:root:INFO: percentage marital status barchart saved
+INFO:root:INFO: total trans histogram saved
+INFO:root:INFO: feature heatmap saved
+INFO:root:SUCCESS: all EDA steps completed
+ERROR:root:ERROR: input df is not of type dataframe, instead is type <class 'list'>
+INFO:root:Testing perform_eda: SUCCESS
+ERROR:root:ERROR: input df is not of type dataframe, instead is type <class 'str'>
+ERROR:root:ERROR: input category_lst is not of type list, instead is type <class 'str'>
+ERROR:root:ERROR: input response is not of type string, instead is type <class 'int'>
+INFO:root:SUCCESS: categorical columns encoded, returning new df with shape (4, 5)
+INFO:root:Testing encoder_helper: SUCCESS
+INFO:root:SUCCESS: categorical columns encoded, returning new df with shape (10127, 28)
+INFO:root:SUCCESS: train_test_splits created with shapes: 
+    X_train: (7088, 19) 
+    X_test: (3039, 19) 
+    y_train: (7088,) 
+    y_test: (3039,) 
+
+INFO:root:Testing perform_feature_engineering: SUCCESS
+INFO:root:Testing train_save_models: SUCCESS
+INFO:root:Testing analyse_performance: SUCCESS
+INFO:root:Testing feature_importance_plot: SUCCESS
+INFO:root:INFO: file path exists and df created
+INFO:root:Testing import_data: SUCCESS
+INFO:root:Testing import_data: SUCCESS
+INFO:root:INFO: file path exists and df created
+INFO:root:INFO: churn histogram saved
+INFO:root:INFO: customer age histogram saved
+INFO:root:INFO: percentage marital status barchart saved
+INFO:root:INFO: total trans histogram saved
+INFO:root:INFO: feature heatmap saved
+INFO:root:SUCCESS: all EDA steps completed
+INFO:root:Testing perform_eda: SUCCESS
+INFO:root:Testing encoder_helper: SUCCESS
+INFO:root:SUCCESS: train_test_splits created with shapes: 
+    X_train: (7088, 19) 
+    X_test: (3039, 19) 
+    y_train: (7088,) 
+    y_test: (3039,) 
+
+INFO:root:Testing perform_feature_engineering: SUCCESS
+INFO:root:Testing train_save_models: SUCCESS
+INFO:root:Testing analyse_performance: SUCCESS
+INFO:root:Testing feature_importance_plot: SUCCESS
