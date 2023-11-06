@@ -10,7 +10,7 @@ Logging is included to troubleshoot the functions and a test suite has been conf
 and that the end-to-end process works as expected.
 
 ## Files and data description
-Folder structure:
+Folder structure:\
 ├── churn_library.py\
 ├── churn_notebook.ipynb\
 ├── churn_script_logging_and_tests.py\
