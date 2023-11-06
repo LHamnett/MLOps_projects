@@ -1,11 +1,13 @@
-# Predict Customer Churn
+# Converting Data Science notebook to production python files
 
 - Project **Predict Customer Churn** of ML DevOps Engineer Nanodegree Udacity
 Author: Leon
 Created 16/10/23
 
 ## Project Description
-This project predicts customer churn for banking customers.
+This project involves converting a Data Science notebook for predicting customer churn into a aet of python functions and modules. 
+Logging is included to troubleshoot the functions and a test suite has been configured to test each function is performing correctly,
+and that the end-to-end process works as expected.
 
 ## Files and data description
 Folder structure:
